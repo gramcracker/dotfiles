@@ -1,0 +1,89 @@
+:root {    /* Unikitty-dark by Chris Kempson (http://chriskempson.com) */
+    --base00: #000000;
+    --base01: #242422;
+    --base02: #484844;
+    --base03: #6c6c66;
+    --base04: #918f88;
+    --base05: #b5b3aa;
+    --base06: #d9d7cc;
+    --base07: #242422;
+    --base08: #ff6c60;
+    --base09: #e9c062;
+    --base0A: #ffffb6;
+    --base0B: #a8ff60;
+    --base0C: #c6c5fe;
+    --base0D: #96cbfe;
+    --base0E: #ff73fd;
+    --base0F: #b18a3d;
+
+    --tridactyl-fg: var(--base05);
+    --tridactyl-bg: var(--base00);
+    --tridactyl-url-fg: var(--base08);
+    --tridactyl-url-bg: var(--base00);
+    --tridactyl-highlight-box-bg: var(--base0B);
+    --tridactyl-highlight-box-fg: var(--base00);
+
+    /* Hint character tags */
+    --tridactyl-hintspan-fg: var(--base0B) !important;
+    --tridactyl-hintspan-bg: var(--base00) !important;
+
+    /* Element Highlights */
+    --tridactyl-hint-active-fg: black;
+    --tridactyl-hint-active-bg: initial !important;
+    --tridactyl-hint-active-outline: black;
+    --tridactyl-hint-bg: unset;
+    --tridactyl-hint-outline: black;
+}
+
+#completions .sectionHeader {    
+    background: var(--base00);
+    border-bottom: var(--base00);
+
+}
+
+#command-line-holder {    order: 1;
+    color: var(--tridactyl-bg);
+}
+
+#tridactyl-input {
+    color: var(--tridactyl-fg);
+    background: var(--tridactyl-bg);
+}
+
+
+
+/* COMPLETIONS */
+
+#completions {
+    color: var(--tridactyl-fg);
+    background: var(--tridactyl-bg);
+    border-top: var(--base00);
+}
+
+
+
+.TridactylStatusIndicator {
+    background: var(--tridactyl-bg) !important;
+    border: 1px var(--base02) solid !important;
+    font-size: 12pt !important;
+    /*font-weight: 200 !important;*/
+    padding: 2px !important;
+}
+
+#completions .focused {    background: var(--base0B);
+    color: var(--base00);
+}
+
+#completions .focused .url {    background: var(--base0B);
+    color: var(--base00);
+}
+
+
+
+/* #Ocean-normal { */
+/*  border-color: green !important; */
+/* } */
+
+/* #Ocean-insert { */
+/*  border-color: yellow !important; */
+/* } */
